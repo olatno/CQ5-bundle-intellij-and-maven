@@ -6,7 +6,7 @@ Before you diving in, please note the following:
 
 1. I have written this post to remind myself of the process. My main motive behind this approach is the idea of separating business logic (jave code) from view (jsp) and using my favourite IDE to build CQ5 bundles. 
 
-2. I have tested and deployed cq5 package into cq5.5 auto instance using following:
+2. I have tested and deployed cq5 package into cq5.5 instance using followings:
 
 
 	a. cq5.5
@@ -15,7 +15,7 @@ Before you diving in, please note the following:
 
 	c. Intellij IDEA 12.1.3
 
-3. I used difference source in order to achieve this.
+3. I used difference sources in order to achieve this.
 
 	a. Using Vault to checkout project as specify in this article
 		http://dev.day.com/docs/en/crx/current/how_to/how_to_use_the_vlttool.html
