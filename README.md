@@ -545,7 +545,7 @@ Before you diving in, please note the following:
 
 <!--vlt -v --credentials admin:admin co --force http://localhost:4502/cq5author/crx/server/crx.default-->
 
-On the left hand side of your intellij bring up the Maven Project, which will appear on third column of the idea. In the maven project, expand Profiles and check adobe-public and intsallPackages. Go to Sample Project Reactor, expand Lifesysle select clean and click on the green arrow. select install and click on green arrow to package and auto install cq5 project. 
+On the left hand side of your intellij bring up the Maven Project, which will appear on third column of the IDE. In the maven project, expand Profiles and check adobe-public and intsallPackages. Go to Sample Project Reactor, expand Lifesysle select clean and click on the green arrow. select install and click on green arrow to package and auto install cq5 project. 
 
 Below were the outputs from my intellij console. 
 
