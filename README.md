@@ -548,7 +548,7 @@ Before you diving in, please note the following:
 On the left hand side of your intellij bring up the Maven Project, which will appear on third column of the IDE. In the maven project, expand Profiles and check adobe-public and intsallPackages. Go to Sample Project Reactor, expand Lifesysle select clean and click on the green arrow. select install and click on green arrow to package and auto install cq5 project. 
 
 Below were the outputs from my intellij console. 
-<!-- -->
+
 "C:\Program Files\Java\jdk1.6.0_24\bin\java" -Dmaven.home=C:\apache-maven-3.0.5\apache-maven\src -Dclassworlds.conf=C:\apache-maven-3.0.5\apache-maven\src\bin\m2.conf -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Users\OlatunjiN\AppData\Roaming\JetBrains\IntelliJ IDEA 12.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\apache-maven-3.0.5\apache-maven\src\boot\plexus-classworlds-2.4.jar;C:\Users\OlatunjiN\AppData\Roaming\JetBrains\IntelliJ IDEA 12.1.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --fail-fast --strict-checksums install -P adobe-public,installPackages
 
 [INFO] Scanning for projects...
