@@ -684,5 +684,4 @@ Package installed in 22ms.
 [INFO] Finished at: Thu Jun 13 15:42:36 BST 2013
 [INFO] Final Memory: 13M/244M
 [INFO] ------------------------------------------------------------------------
-
 Process finished with exit code 0
