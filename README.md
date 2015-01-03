@@ -685,4 +685,4 @@ Package installed in 22ms.
 [INFO] Final Memory: 13M/244M
 [INFO] ------------------------------------------------------------------------
 
-Process finished with exit code 0 
+Process finished with exit code 0
