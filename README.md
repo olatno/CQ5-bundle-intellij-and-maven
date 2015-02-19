@@ -30,7 +30,7 @@ Before you diving in, please note the following:
 		http://dev.day.com/docs/en/cq/5-5/developing/developmenttools/developing_with_eclipse.html
 
 
- 4. How to go about these step by step. In this steps, we are going do the following:
+ 4. How to go about these step by step. In these steps, we are going do the following:
 	-Install and configure vault
 	-Set up project structure in intellij, which include creating Main Project and 3 Project Modules
 	-Update pom.xml for Main Project and the 3 Project Modules
