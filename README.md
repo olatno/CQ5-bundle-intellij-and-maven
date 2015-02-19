@@ -548,12 +548,7 @@ Before you diving in, please note the following:
 On the left hand side of your intellij bring up the Maven Project, which will appear on third column of the IDE. In the maven project, expand Profiles and check adobe-public and intsallPackages. Go to Sample Project Reactor, expand Lifesysle select clean and click on the green arrow. select install and click on green arrow to package and auto install cq5 project. 
 
 Below were the outputs from my intellij console. 
-
 "C:\Program Files\Java\jdk1.6.0_24\bin\java" -Dmaven.home=C:\apache-maven-3.0.5\apache-maven\src -Dclassworlds.conf=C:\apache-maven-3.0.5\apache-maven\src\bin\m2.conf -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Users\OlatunjiN\AppData\Roaming\JetBrains\IntelliJ IDEA 12.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\apache-maven-3.0.5\apache-maven\src\boot\plexus-classworlds-2.4.jar;C:\Users\OlatunjiN\AppData\Roaming\JetBrains\IntelliJ IDEA 12.1.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --fail-fast --strict-checksums install -P adobe-public,installPackages
-
-
-
- <console></console>
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
@@ -605,15 +600,15 @@ Below were the outputs from my intellij console.
 [INFO] --- maven-bundle-plugin:2.1.0:bundle (default-bundle) @ core ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ core ---
-[INFO] Installing C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar to C:\Users\OlatunjiN\.m2\repository\com\day\cq5project\core\1.0-SNAPSHOT\core-1.0-SNAPSHOT.jar
-[INFO] Installing C:\Users\OlatunjiN\cq5project\core\pom.xml to C:\Users\OlatunjiN\.m2\repository\com\day\cq5project\core\1.0-SNAPSHOT\core-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar to [INFO] [INFO]C:\Users\OlatunjiN\.m2\repository\com\day\cq5project\core\1.0-SNAPSHOT\core-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\OlatunjiN\cq5project\core\pom.xml to [INFO]C:\Users\OlatunjiN\.m2\repository\com\day\cq5project\core\1.0-SNAPSHOT\core-1.0-SNAPSHOT.pom
 [INFO] 
 [INFO] --- maven-bundle-plugin:2.1.0:install (default-install) @ core ---
 [INFO] Installing com/day/cq5project/core/1.0-SNAPSHOT/core-1.0-SNAPSHOT.jar
 [INFO] Writing OBR metadata
 [INFO] 
 [INFO] --- maven-sling-plugin:2.1.0:install (install-bundle) @ core ---
-[INFO] Installing Bundle com.day.cq5project.core(C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar) to http://localhost:8099/cq5author/crx/repository/crx.default/apps/hoc/install/ via PUT
+[INFO] Installing Bundle com.day.cq5project.core(C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar) to [INFO]http://localhost:8099/cq5author/crx/repository/crx.default/apps/hoc/install/ via PUT
 [ERROR] Installation failed, cause: Conflict
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -643,7 +638,7 @@ Below were the outputs from my intellij console.
 [INFO] 
 [INFO] --- content-package-maven-plugin:0.0.20:package (default-package) @ app ---
 [INFO] Embedding --- Embedded: groupId=com.day.cq5project,artifactId=core,filter=false,excludeTransitive=false,target=/apps/cq5project/install/ ---
-[INFO] Embedding com.day.cq5project:core:jar:1.0-SNAPSHOT (from C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar) -> jcr_root/apps/cq5project/install/core-1.0-SNAPSHOT.jar
+[INFO] Embedding com.day.cq5project:core:jar:1.0-SNAPSHOT (from [INFO]C:\Users\OlatunjiN\cq5project\core\target\core-1.0-SNAPSHOT.jar) -> jcr_root/apps/cq5project/install/core-1.0-SNAPSHOT.jar
 [INFO] Building content-package: C:\Users\OlatunjiN\cq5project\app\target\app-1.0-SNAPSHOT.zip
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ app ---
@@ -688,4 +683,3 @@ Package installed in 22ms.
 [INFO] Final Memory: 13M/244M
 [INFO] ------------------------------------------------------------------------
 Process finished with exit code 0
-<console></console>
