@@ -50,7 +50,7 @@ Before you diving in, please note the following:
 
          we use Intellij idea to create the above project structure as follows.
 
-		In intellij (if intellij idea already install), click on File =>New Project. In the New Project window, select maven module, enter project name, opportunity to change project location or take default and opportunity to add project SDK or take default. Click on next to next window and click on finish. WARN - Dont create from archtype just take default and click on finish. Open the myprojectname/pom.xml and copy and paste the Maven rector:
+		In intellij (if intellij idea already install), click on File =>New Project. In the New Project window, select maven module, enter project name, opportunity to change project location or take default and opportunity to add project SDK or take default. Click on next to next window and click on finish. WARN - Dont create from archtype just take default and click on finish. Open the myprojectname/pom.xml and copy and paste the Maven rector below:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -136,7 +136,7 @@ Before you diving in, please note the following:
     </profiles>
 </project> 
 
-	c. Create project module underneath your main project which was created above by following this step:
+	c. Create project module underneath your main project which was created above by following these steps:
 
 		Click on File => New Module, highlight Maven module and name it parent. Click next to new window, accept default and click on finish.
 
@@ -541,7 +541,7 @@ Before you diving in, please note the following:
 		</workspaceFilter>
 
 
-	f. Open command and cd to cq5talib/ui/src/main/content directory and issue this vault command "vlt –-credentials admin:admin co http://localhost:4502/crx" . If command is successful, the file from cq5 instance project created will be available in your intellij. Once cq5 project is checkout to intellij, move /libs/foundation to components/contentpage and delete <filter root="/libs/foundation" /> in your filter.xml
+	f. Open window command propt and cd to cq5talib/ui/src/main/content directory and issue this vault command "vlt –-credentials admin:admin co http://localhost:4502/crx" . If command is successful, the file from cq5 instance project created will be available in your intellij. Once cq5 project is checkout to intellij, move /libs/foundation to components/contentpage and delete <filter root="/libs/foundation" /> in your filter.xml
 
 <!--vlt -v --credentials admin:admin co --force http://localhost:4502/cq5author/crx/server/crx.default-->
 
