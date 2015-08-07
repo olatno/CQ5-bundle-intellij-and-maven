@@ -4,7 +4,7 @@ How to setup, build and auto deployed cq5 bundle with maven and Intellij idea
 
 Before you diving in, please note the following:
 
-1. I have written this post to remind myself of the process. My main motive behind this approach is the idea of separating business logic (jave code) from view (jsp) and using my favourite IDE to build CQ5 bundles. 
+1. I have written this post to remind myself of the process. My main motive behind this approach is the idea of separating business logic (java code) from view (jsp) and using my favourite IDE to build CQ5 bundles. 
 
 2. I have tested and deployed cq5 package into cq5.5 instance using followings:
 
